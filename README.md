@@ -2,7 +2,7 @@
 江俊 材料物理
 ## Exercise List
 ### [Exercise_01](https://www.zybuluo.com/xiayutian1009/note/494912)
-### [Exercise_02](https://www.zybuluo.com/xiayutian1009/note/498702)
+### [Exercise_02:write the "spell your name" code ](https://www.zybuluo.com/xiayutian1009/note/498702)
 ### [Exercise_03](https://www.zybuluo.com/xiayutian1009/note/498706)
 ### [Exercise_04](https://www.zybuluo.com/xiayutian1009/note/498709)
 ### [Exercise_05](https://www.zybuluo.com/xiayutian1009/note/498711)
