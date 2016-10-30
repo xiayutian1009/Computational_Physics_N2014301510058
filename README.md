@@ -25,7 +25,7 @@
 [picture:plot3](https://github.com/xiayutian1009/Computational_Physics_N2014301510058/blob/master/hom04.plot03.PNG?raw=true)  
 [picture:plot4](https://github.com/xiayutian1009/Computational_Physics_N2014301510058/blob/master/hom04.plot04.PNG?raw=true)  
 ### [Exercise_06 : Attack a target](https://www.zybuluo.com/xiayutian1009/note/498698)
-### [Exercise_07](https://www.zybuluo.com/xiayutian1009/note/498686)
+### [Exercise_07 : Chaotic pendulum](https://www.zybuluo.com/xiayutian1009/note/498686)
 ### [Exercise_08](https://www.zybuluo.com/xiayutian1009/note/498716)
 ### [Exercise_09](https://www.zybuluo.com/xiayutian1009/note/498717)
 ### [Exercise_10](https://www.zybuluo.com/xiayutian1009/note/498719)
