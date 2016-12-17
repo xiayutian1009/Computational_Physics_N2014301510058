@@ -31,3 +31,4 @@
 ### [Exercise_10 ：Perihelion of Mercury](https://www.zybuluo.com/xiayutian1009/note/498719)
 ### [Exercise_11 ：Hyperion orbits Saturn](https://www.zybuluo.com/xiayutian1009/note/588393)
 ### [Exercise_12 ：Electric field](https://www.zybuluo.com/xiayutian1009/note/596293)
+### [Exercise_13 ：Wave](https://www.zybuluo.com/xiayutian1009/note/603632)
