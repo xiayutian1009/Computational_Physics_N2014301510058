@@ -348,8 +348,8 @@ for i in range(1000):
         else :
             x_c[j] = x_c[j-1] 
             y_c[j] = y_c[j-1]-1	
-    tmpx=x_c[999]
-    tmpy=y_c[999]
+    tmpx=x_c[49]
+    tmpy=y_c[49]
     x_v[i]=tmpx
     y_v[i]=tmpy
     for k in range (10):
@@ -361,6 +361,16 @@ for g in range (10):
             if pi[g][m]>0:
                 entropy=entropy-pi[g][m]*math.log(pi[g][m])
 print entropy
+import matplotlib.pyplot as pl
+x=[0,10,50,100,200,400,600,800,1000,2000,3000,4000,5000,6000]
+y=[1.036771,1.355669,1.377068,1.439547,1.789050,2.340163,2.662033,2.863047,3.079114,3.693579,3.920797,3.981498,3.858740,3.974414]
+pl.plot(x,y,"r")
+pl.ylim(0,5)
+pl.xlim(0,6000)
+pl.ylabel("entropy")
+pl.xlabel("time")
+pl.title("Entropy versus time")
+pl.show()
 
 
 from __future__ import division
@@ -368,14 +378,18 @@ import matplotlib
 import numpy as np
 import matplotlib.cm as cm
 import matplotlib.pyplot as pl
-
+import matplotlib.cm as cm
+import matplotlib.mlab as mlab
+from mpl_toolkits.mplot3d import Axes3D
 dx=1
 dt=0.5
 D=1
 time=10
 length=100
 den=np.zeros(100)
+den1=np.zeros((100,100))
 x=range(100)
+y=range(100)
 density=[[0 for i in range(100)]for n in range(length)]
 for j in range(100):
     for k in range(length):
@@ -392,11 +406,29 @@ for l in range(1,99):
     if den[l]==0:
         den[l]=0.5*(den[l-1]+den[l+1])
 
+
 pl.plot(x,den)
+pl.plot(y,den)
 pl.xlabel("x")
 pl.ylabel("density")
 pl.title("Diffusion in one dimension,t=100dt")
 #pl.ylim(0,0.3)
+matplotlib.rcParams['xtick.direction'] = 'out'
+matplotlib.rcParams['ytick.direction'] = 'out'
+
+x = np.linspace(0,99,100)
+y = np.linspace(0,99,100)
+X, Y = np.meshgrid(x, y)
+Z = density
+
+
+fig = pl.figure()
+ax = fig.add_subplot(111, projection='3d')
+ax.plot_surface(X, Y, Z)
+ax.set_xlabel('time')
+ax.set_ylabel('x')
+ax.set_zlabel('density')
+ax.set_title('Diffusion versus time')
 pl.show()
 
 		
